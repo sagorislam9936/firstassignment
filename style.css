@@ -1,9 +1,306 @@
-ul{
-    list-style: none;
-    display: flex;
-    gap: 25px;
+
+/*header area style*/
+.menuList{
+    display: flex; 
+    gap: 0px 25px;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
-a{
+
+.menuList li{
+    list-style: none;
+} 
+
+.menuList a{
+    text-decoration: none;
+    color: rgb(112, 103, 92);
+    font-size: 12px;
+}
+.menuList li :hover{
+color: black;
+}
+
+/*banner area style*/
+.bannerSection{
+display: flex;
+gap: 80px;
+padding: 55px 430px 10px 380px;
+
+}
+
+
+.textArea{
+  
+    justify-content: center;
+    width: 63%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.freepik{
     text-decoration: none;
 }
+.bannerImage{
+    width: 315px;
+    
+}
+.imageArea{
+    width: 37%
+
+}
+.link{
+    font-size: 13px;
+}
+.fontSize{
+   font-size: 12px; 
+}
+.button{
+   background-color: #FC6F61;
+
+    color: white;
+    border: none;
+    padding: 07px 18px;
+    font-size: 12px;
+    border-radius: 20px ;
+}
+/* can you learn style*/
+
+
+.Learn{
+  margin: 0px 330px 0px 340px;
+    border: 1px solid white;
+    height: 570px;
+    width: 510px;
+   background-color: #FD7062;
+    padding: 0px 50px;
+  
+}
+
+.parentsDiv{
+    display: flex;
+    gap: 10px;
+   
+    
+}
+.scndParentDiv{
+    display: flex;
+    gap: 11px;
+    padding: 10px 0px
+    
+}
+
+.childLearn{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.phonecss{
+
+    border: 2px solid white;
+width: 280px;
+height: 150px;
+border-radius: 30px ;
+background-color: #FEFEFE;
+text-align: center;
+margin: 10px 5px 0px 0px;
+padding: 18px 0px;
+}
+.firstPic{
+   
+    border-radius: 50px ;
+    border: none;
+   background-color: #4B4CF8;
+padding: 12px ;
+       
+}
+.firstPichead{
+    font-size: 12px;
+}
+
+.sheetcss{
+    border: 2px solid white;
+    width: 280px;
+    height: 150px;
+    border-radius: 30px ;
+    background-color: #FEFEFE;
+    text-align: center;
+    margin: 10px 5px 0px 0px;
+    padding: 18px 0px;
+}
+.scndPic{
+    border-radius: 50px ;
+    border: none;
+    background-color: #4B4CF8;
+    padding: 12px ;
+    
+
+}
+.scndPicHead{
+    font-size: 12px;
+}
+
+.settingCss{
+  
+    border: 2px solid white;
+    width: 240px;
+    height: 150px;
+    border-radius: 30px ;
+    background-color: #FEFEFE;
+    text-align: center;
+    margin: 10px 5px 0px 0px;
+    padding: 18px 0px;
+}
+.thirdPic{
+    border-radius: 50px ;
+    border: none;
+    background-color: #4B4CF8;
+    padding: 12px ;
+}
+
+.trdClassHead{
+    font-size: 12px;
+}
+
+.Communicationcss{
+    border: 2px solid white;
+    width: 240px;
+    height: 150px;
+    border-radius: 30px ;
+    background-color: #FEFEFE;
+    text-align: center;
+    margin: 10px 5px 0px 0px;
+    padding: 18px 0px;
+}
+
+.fourPic{
+    border-radius: 50px ;
+    border: none;
+    background-color: #4B4CF8;
+    padding: 12px ;
+}
+
+.fourPicHead{
+    font-size: 12px;
+}
+
+p{
+    font-size: 10px;
+}
+
+.serviceDiv{
+    padding: 11px 197px;
+    
+   
+}
+.service{
+    color: rgb(193, 196, 193);
+    background-color: rgb(78, 78, 171);
+    border-radius: 40px;
+    font-size: 10px;
+    padding: 8px 15px;
+    border: none;
+}
+/*second bannar style*/
+.secondBanner{
+  
+    /*padding: 55px 430px 10px 310px;*/
+margin: 30px 370px 05px 340px;
+}
+
+.scndBannerDiv{
+    display: flex;
+gap: 50px;
+
+
+}
+.textAreatwo{
+    font-size: 12px;
+    justify-content: center;
+    width: 38%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bannerImagetwo{
+    width: 100%;
+    
+}
+.listTag{
+    font-size: 10px;
+}
+
+/*box area*/
+.boxArea{
+    border: 1px solid red;
+    height: 185px;
+    width: 610px;
+    margin: 0px 330px 30px 340px;
+    background-color:  #FD7062
+    
+}
+.textArea3{
+  display: flex;
+  gap: 115px;
+    padding: 15px 25px 10px 65px;
+    color: white;
+}
+.happyClient h1{
+font-size: 48px;
+}
+.happyClient p{
+    font-size: 11px;
+}
+ 
+.HappyC h1{
+    font-size:48px ;
+}
+.HappyC p {
+    font-size: 11px;
+}
+.Countries{
+    
+}
+.HappyCountries h1 {
+    font-size:48px ;
+}
+.HappyCountries p {
+    font-size: 11px;
+}
+/*last banner style*/
+.lastBanner{
+    margin: 5px 360px 05px 340px;
+   
+}
+.lastbannerDiv{
+    display: flex;
+    gap: 110px;
+}
+.thirdTextArea{
+    padding: 50px 0px;
+    justify-content: center;
+    width: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bannerImageTwo{
+   width: 130%;
+}
+.thirdTextArea h1{
+    font-size: 19px;
+}
+.footerArea{
+    border: 1px solid #4B4DF7;
+    margin: 0px 330px 300px 340px;
+   background-color: #4B4DF7 ;
+    height: 170px;
+    width: 610px;
+  
+    
+
+}
+.footerAreaDiv{
+    text-align: center;
+  color: white
+}
+.inputArea input{
+    padding: 2px;
+    border-radius: 10px; border: none; height: 20px;
+}
+
+
+
