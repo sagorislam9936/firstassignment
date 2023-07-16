@@ -1,5 +1,7 @@
 
 /*header area style*/
+
+
 .menuList{
     display: flex; 
     gap: 0px 25px;
@@ -22,10 +24,12 @@ color: black;
 
 /*banner area style*/
 .bannerSection{
+
 display: flex;
 gap: 80px;
-padding: 55px 430px 10px 380px;
 
+
+margin:  30px 430px 0px 380px;
 }
 
 
@@ -63,10 +67,10 @@ padding: 55px 430px 10px 380px;
 }
 /* can you learn style*/
 
-
+/*This is service area*/
 .Learn{
   margin: 0px 330px 0px 340px;
-    border: 1px solid white;
+    border: 4px solid rgb(249, 245, 245);
     height: 570px;
     width: 510px;
    background-color: #FD7062;
@@ -198,11 +202,11 @@ p{
     padding: 8px 15px;
     border: none;
 }
-/*second bannar style*/
+/*This is about me Area style*/
 .secondBanner{
   
     /*padding: 55px 430px 10px 310px;*/
-margin: 30px 370px 05px 340px;
+margin: 30px 370px 0px 340px;
 }
 
 .scndBannerDiv{
@@ -225,9 +229,9 @@ gap: 50px;
     font-size: 10px;
 }
 
-/*box area*/
+/*This Is Client Area Style*/
 .boxArea{
-    border: 1px solid red;
+    border: 4px solid rgb(240, 238, 238);
     height: 185px;
     width: 610px;
     margin: 0px 330px 30px 340px;
@@ -237,7 +241,7 @@ gap: 50px;
 .textArea3{
   display: flex;
   gap: 115px;
-    padding: 15px 25px 10px 65px;
+    padding: 15px 25px 0px 65px;
     color: white;
 }
 .happyClient h1{
@@ -262,9 +266,10 @@ font-size: 48px;
 .HappyCountries p {
     font-size: 11px;
 }
-/*last banner style*/
+/*This Is About Us Area Style*/
 .lastBanner{
-    margin: 5px 360px 05px 340px;
+    border: 2PX solid white;
+    margin: 5px 360px 0px 340px;
    
 }
 .lastbannerDiv{
@@ -283,9 +288,11 @@ font-size: 48px;
 .thirdTextArea h1{
     font-size: 19px;
 }
+/*This Is Newsleter section Area
+Style*/
 .footerArea{
     border: 1px solid #4B4DF7;
-    margin: 0px 330px 300px 340px;
+    margin: 0px 330px 8px 340px;
    background-color: #4B4DF7 ;
     height: 170px;
     width: 610px;
@@ -294,6 +301,7 @@ font-size: 48px;
 
 }
 .footerAreaDiv{
+    padding: 28px 0px;
     text-align: center;
   color: white
 }
@@ -301,6 +309,15 @@ font-size: 48px;
     padding: 2px;
     border-radius: 10px; border: none; height: 20px;
 }
-
-
-
+.foterArea{
+border: none;
+margin: 0px 330px 300px 340px;
+background-color:  #323232;
+height: 95px;
+width: 612px;
+}
+.foterDiv{
+    color: rgb(254, 231, 231);
+    text-align: center;
+   padding: 10px 0px;
+}
